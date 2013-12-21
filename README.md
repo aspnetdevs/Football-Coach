@@ -1,4 +1,0 @@
-Football-Coach
-==============
-
-Football Coach
