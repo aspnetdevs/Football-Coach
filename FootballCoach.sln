@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://localhost:8081", "http://localhost:8081", "{DA34102F-C553-4F26-A914-B50624C29125}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{758bccac-afb3-4a69-acef-f85fdf9bdf2c}|FootballCoach.DbEngine.dll;{27F55E67-2BB1-49D1-BBF5-9763EF95EB0B}|FootballCoach.Environment.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_8081"
+		Debug.AspNetCompiler.PhysicalPath = "..\Football-Coach\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8081\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_8081"
+		Release.AspNetCompiler.PhysicalPath = "..\Football-Coach\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8081\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\Football-Coach\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballCoach.DbEngine", "FootballCoach.DbEngine\FootballCoach.DbEngine.csproj", "{758BCCAC-AFB3-4A69-ACEF-F85FDF9BDF2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballCoach.Environment", "FootballCoach.Environment\FootballCoach.Environment.csproj", "{27F55E67-2BB1-49D1-BBF5-9763EF95EB0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA34102F-C553-4F26-A914-B50624C29125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA34102F-C553-4F26-A914-B50624C29125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA34102F-C553-4F26-A914-B50624C29125}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA34102F-C553-4F26-A914-B50624C29125}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{758BCCAC-AFB3-4A69-ACEF-F85FDF9BDF2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758BCCAC-AFB3-4A69-ACEF-F85FDF9BDF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758BCCAC-AFB3-4A69-ACEF-F85FDF9BDF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758BCCAC-AFB3-4A69-ACEF-F85FDF9BDF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F55E67-2BB1-49D1-BBF5-9763EF95EB0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F55E67-2BB1-49D1-BBF5-9763EF95EB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F55E67-2BB1-49D1-BBF5-9763EF95EB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F55E67-2BB1-49D1-BBF5-9763EF95EB0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

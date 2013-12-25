@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<%@ Import Namespace="FootballCoach.Environment" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="styles/main.css" rel="stylesheet" />
+    <script src="js/jquery-2.0.0.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="MainScriptManager" runat="server"></asp:ScriptManager>
+        <div id="wrapper">
+            <asp:UpdatePanel ID="LoginUpdatePanel" UpdateMode="Conditional" runat="server">
+                <ContentTemplate>
+                    <% if (!GameEnvironment.IsAuthenticated)
+                       { %>
+                    <asp:Panel ID="LoginUserPanel" runat="server">
+                        <input id="loginInput" type="text" placeholder="Логин" runat="server" />
+                        <input id="passwordInput" type="password" placeholder="Пароль" runat="server" />
+                        <asp:Button ID="EnterButton" runat="server" Text="Войти" OnClick="EnterButton_Click" />
+                        <asp:Button ID="RegisterButton" runat="server" Text="Зарегистрировать и войти" OnClick="RegisterButton_Click" />
+                        <span id="errorLoginLabel" runat="server" />
+                    </asp:Panel>
+                    <%}
+                       else
+                       { %>
+                    <asp:Panel ID="LogoutUserPanel" runat="server">
+                        <span>Вы вошли в приложение под логином <%=Request.Cookies["user"].Value %></span>
+                        <asp:Button ID="ExitButton" runat="server" Text="Выйти" OnClick="ExitButton_Click" />
+                    </asp:Panel>
+                    <%} %>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+            <div id="main">
+                <asp:ContentPlaceHolder ID="MainPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,7 @@
+D:\Football-Coach\FootballCoach.DbEngine\bin\Debug\FootballCoach.DbEngine.dll
+D:\Football-Coach\FootballCoach.DbEngine\bin\Debug\FootballCoach.DbEngine.pdb
+D:\Football-Coach\FootballCoach.DbEngine\bin\Debug\FootballCoach.Environment.dll
+D:\Football-Coach\FootballCoach.DbEngine\bin\Debug\FootballCoach.Environment.pdb
+D:\Football-Coach\FootballCoach.DbEngine\obj\Debug\FootballCoach.DbEngine.csprojResolveAssemblyReference.cache
+D:\Football-Coach\FootballCoach.DbEngine\obj\Debug\FootballCoach.DbEngine.dll
+D:\Football-Coach\FootballCoach.DbEngine\obj\Debug\FootballCoach.DbEngine.pdb

@@ -1,0 +1,27 @@
+﻿body {
+}
+
+#login {
+    background-color: red;
+}
+
+#main {
+    background-color: blue;
+    margin: auto;
+}
+
+#wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+.gameProcess, .gameProcess table {
+    background-color: yellow;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.hide {
+    display: none;
+}

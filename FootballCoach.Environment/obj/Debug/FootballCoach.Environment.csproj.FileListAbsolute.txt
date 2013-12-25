@@ -1,0 +1,4 @@
+D:\Football-Coach\FootballCoach.Environment\bin\Debug\FootballCoach.Environment.dll
+D:\Football-Coach\FootballCoach.Environment\bin\Debug\FootballCoach.Environment.pdb
+D:\Football-Coach\FootballCoach.Environment\obj\Debug\FootballCoach.Environment.dll
+D:\Football-Coach\FootballCoach.Environment\obj\Debug\FootballCoach.Environment.pdb
